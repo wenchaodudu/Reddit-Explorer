@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "background":{
+   "scripts":["background.js"]
+  },
+  "name": "Reddit Explorer",
+  "icons": {
+   "16":"icon.png",
+   "48":"icon.png"
+  },
+  "omnibox":{
+   "keyword": "rd"
+  },
+  "description": "Search Reddit in a new page or from the search bar.",
+  "version": "1.0",
+
+  "permissions": [
+    "http://www.reddit.com/*",
+    "contextMenus",
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}

@@ -15,4 +15,8 @@ Main features:
  
  Example: waterloo sr:uwaterloo @gg
  
+2. Recommendations of subreddits in pop-up page based on browse history
 
+3. Context menu selected text search. This includes an option to return a random top result.
+
+Enjoy subredditting!
